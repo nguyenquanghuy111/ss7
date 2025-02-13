@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+.editor-pick {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff4500;
+    display: flex;
+    align-items: center;
+}
+.editor-pick::before {
+    content: "⭐";
+    margin-right: 5px;
+}
+.article-image {
+    width: 100%;
+    border-radius: 10px;
+}
+.title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.category {
+    font-weight: bold;
+    color: #1e40af;
+}
+.description {
+    margin-top: 5px;
+    color: #333;
+    line-height: 1.5;
+}

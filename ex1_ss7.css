@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+h1 {
+    color: #2e206b;
+}
+.check-list {
+    list-style: none;
+    padding: 0;
+}
+.check-list li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.check-list li::before {
+    content: "✔️";
+    margin-right: 10px;
+    color: red;
+}
+.buttons {
+    margin-top: 20px;
+}
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.btn-primary {
+    background-color: red;
+    color: white;
+}
+.btn-secondary {
+    background-color: #ddd;
+}

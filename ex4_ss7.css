@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #181818;
+    color: white;
+    padding: 20px;
+}
+.container {
+    background: #222;
+    padding: 15px;
+    border-radius: 10px;
+}
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    border-left: 4px solid orange;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+.image-container {
+    position: relative;
+}
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+.overlay-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.news-list {
+    margin-top: 15px;
+}
+.news-list p {
+    font-size: 14px;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
